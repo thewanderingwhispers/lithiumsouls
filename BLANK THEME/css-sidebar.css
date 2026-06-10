@@ -1,0 +1,61 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgb(10 10 10 / .55);
+  backdrop-filter: blur(6px);
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 10px;
+  z-index: 997;
+  transform: translateX(0);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+/* Conteneur de switcheroo */
+.sidebar_top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+.sidebar.has-notiffi .sidebar_top {
+  margin-top: 60px;
+}
+.sidebar.has-notiffi {
+  transform: translateY(60px);
+}
+/* Conteneur de l'ascenseur
+ * Sert essentiellement à définir où le placer dans la page */
+.sidebar_bottom {
+  width: 45px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Lien de renvoi haut/bas */
+.sidebar_bottom > a {
+  padding: 5px 0px;
+  border-radius: var(--radiusbis);
+  background: var(--color02);
+  color: var(--colorfont);
+  height: 20px;
+  width: 45px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sidebar_bottom .bi {
+  font-size: 16px;
+}
+.bi-caret-up-fill::before {
+  content: "\f235";
+  margin: -4px;
+}
+  .bi-caret-down-fill::before {
+  content: "\f229";
+  margin: -4px;
+}
