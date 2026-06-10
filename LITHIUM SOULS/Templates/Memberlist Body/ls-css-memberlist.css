@@ -122,12 +122,7 @@ input[type="text"]:focus, .inputbox:focus {
   filter: brightness(1.1);
 }
 .ls-memberlist_bg {
-  /* padding: 10px; */
   gap: 10px;
-  /* background-color: var(--color02); */
-  /* border: 1px solid var(--border); */
-  /* border-radius: var(--radiusbis); */
-  /* color: var(--colorfont); */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between !important;
@@ -150,7 +145,7 @@ input[type="text"]:focus, .inputbox:focus {
   overflow: hidden;
 }
 .ls-memberlist_avatar img {
-  max-width: 100% !important;
+  width: 100% !important;
   object-fit: cover;
 }
 .ls-memberlist_pseudo {
@@ -173,16 +168,27 @@ input[type="text"]:focus, .inputbox:focus {
   font: 12px var(--font-text);
   font-weight: bold;
 }
-.ls-memberlist_pseudo.group-3 {
-  background: rgba(193, 171, 123, 0.4);
-}
-.ls-memberlist_pseudo.group-4 {
-  background: rgba(173, 121, 180, 0.6);
-}
+.ls-memberlist_pseudo.group-2 { background: rgba(186, 171, 123, 0.7); }
+.ls-memberlist_pseudo.group-3 { background: rgba(198, 108, 35, 0.7); }
+.ls-memberlist_pseudo.group-4 { background: rgba(214, 118, 99, 0.7); }
+.ls-memberlist_pseudo.group-5 { background: rgba(201, 100, 119, 0.7); }
+.ls-memberlist_pseudo.group-6 { background: rgba(104, 89, 124, 0.7); }
+.ls-memberlist_pseudo.group-7 { background: rgba(54, 74, 90, 0.7); }
+.ls-memberlist_pseudo.group-8 { background: rgba(81, 123, 119, 0.7); }
+.ls-memberlist_pseudo.group-9 { background: rgba(152, 168, 174, 0.7); }
+.ls-memberlist_pseudo.group-10 { background: rgba(178, 173, 164, 0.7); }
+.ls-memberlist_pseudo.group-2,
 .ls-memberlist_pseudo.group-3,
-.ls-memberlist_pseudo.group-4 {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+.ls-memberlist_pseudo.group-4,
+.ls-memberlist_pseudo.group-5,
+.ls-memberlist_pseudo.group-6,
+.ls-memberlist_pseudo.group-7,
+.ls-memberlist_pseudo.group-8,
+.ls-memberlist_pseudo.group-9,
+.ls-memberlist_pseudo.group-10 {
+    color: #fff;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
 }
 .ls-memberlist_stats {
   display: grid;
