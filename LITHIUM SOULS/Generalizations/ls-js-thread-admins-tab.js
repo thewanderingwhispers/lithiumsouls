@@ -1,4 +1,4 @@
-// onglets des fiches admins
+// onglets des fiches admins, sans doute à supprimer
 
 document.addEventListener("DOMContentLoaded", function () {
   const tabs = document.querySelectorAll(".lstab");
