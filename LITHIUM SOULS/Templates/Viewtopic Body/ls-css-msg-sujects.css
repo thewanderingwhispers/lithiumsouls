@@ -238,10 +238,14 @@ h1.lithium-vb_titlemap::after {
   color: var(--colornews);
 }
 .lithium-vb_content {
-  padding: 60px;
+  padding: 40px;
   text-align: justify;
   font: 12px var(--font-text);
   color: var(--colorfont);
+  background-color: rgba(15, 15, 15, 0.4);
+  margin: 20px;
+  min-height: 790px;
+  border-radius: var(--mainradius);
 }
 .lithium-vb_content img {
   max-width:600px;
