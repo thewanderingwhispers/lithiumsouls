@@ -70,7 +70,8 @@ h1.lithium-vb_titlemap::after {
   margin: 24px 0;
 }
 .sub-header-buttons {
-  float: left;
+  display: flex;
+  float:right;
   margin: 0 0 30px 0;
 }
 /* bloc qui gère l'ensemble de la structure */
