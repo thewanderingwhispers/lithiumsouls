@@ -23,9 +23,9 @@
       // Permet d'aller chercher les éléments des pages par leur class
       select: {
         // Titre d'un forum et d'un sujet
-        forum_info: ".page-title",
+        forum_info: ".lithium-vb_titlemape",
         // Titre d'un sujet dans la liste des sujets ou d'un forum
-        forumtitle: "a.forumtitle, a.topictitle",
+        forumtitle: ".lithium-ib_titlefrm a, a.lithium-ib_latesttopic",
         // Forum ou sujet dans la liste des sujets
         topic: ".forum, .topicslist_row",
         // Date du dernier message d'un sujet dans la liste des sujets
