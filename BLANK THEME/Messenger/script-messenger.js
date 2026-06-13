@@ -23,7 +23,7 @@
       // Permet d'aller chercher les éléments des pages par leur class
       select: {
         // Titre d'un forum et d'un sujet
-        forum_info: ".lithium-vb_titlemap",
+        forum_info: ".page-title",
         // Titre d'un sujet dans la liste des sujets ou d'un forum
         forumtitle: "a.forumtitle, a.topictitle",
         // Forum ou sujet dans la liste des sujets
