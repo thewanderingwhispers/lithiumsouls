@@ -22,27 +22,28 @@
       // Sélecteurs CSS
       // Permet d'aller chercher les éléments des pages par leur class
       select: {
-      // Titre du sujet
-      forum_info: ".lithium-vb_titlemap",
-      // Pas vraiment présent dans ce template viewtopic
-      forumtitle: "a.forumtitle, a.topictitle",
-      // Post
-      topic: ".post",
-      // Non présent ici / plutôt pour la liste des sujets
-      lastpost_date: "",
-      lastpost_avatar: "",
-      // Type de sujet
-      topic_type: "",
-      // Un post
-      post: ".post",
-      // Avatar du post
-      post_avatar: ".lithium-vb_posteravatar img",
-      // Pseudo de l'auteur
-      post_name: ".lithium-vb_postname",
-      // Date du post
-      post_date: ".lithium-vb_topictle span",
-      // Contenu du post
-      post_message: ".lithium-vb_content > div:first-child",
+        // Titre d'un forum et d'un sujet
+        forum_info: ".lithium-vb_titlemap",
+        // Titre d'un sujet dans la liste des sujets ou d'un forum
+        forumtitle: "a.forumtitle, a.topictitle",
+        // Forum ou sujet dans la liste des sujets
+        topic: ".forum, .topicslist_row",
+        // Date du dernier message d'un sujet dans la liste des sujets
+        lastpost_date: ".lastpost > span",
+        // Avatar du dernier posteur d'un sujet dans la liste des sujets
+        lastpost_avatar: ".lastpostavatar img",
+        // Type d'un sujet (note, annonce, sondage...)
+        topic_type: ".topic-type > strong",
+        // Un post
+        post: ".post_row",
+        // Avatar du post
+        post_avatar: ".post_avatar img",
+        // Pseudo de l'auteur du post
+        post_name: ".post_pseudo",
+        // Date du post
+        post_date: ".post_date time",
+        // Contenu du post
+        post_message: ".content > div",
 
         // Réservé
         pagination: ".pagination:not(strong)",
