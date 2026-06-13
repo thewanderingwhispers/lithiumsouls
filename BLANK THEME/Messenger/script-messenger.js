@@ -42,8 +42,7 @@
       // Date du post
       post_date: ".lithium-vb_topictle span",
       // Contenu du post
-      post_message: ".lithium-vb_content > div:first-child"
-}
+      post_message: ".lithium-vb_content > div:first-child",
 
         // Réservé
         pagination: ".pagination:not(strong)",
